@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>theHam</title>
+    <link rel="shortcut icon" href="./img/favicon-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class='container-loader' role="dialog">
+        <div class='loader loader-active'>
+            <div class='loader-items'>
+                <span class="loader-item"></span>
+                <span class="loader-item"></span>
+                <span class="loader-item"></span>
+            </div>
+            <p class="loader-name">Loading</p>
+        </div> 
+    </div>
+    <header class="header-background ">
+        <section class="head-horizontal-menu">
+            <div>
+                <a href="#" class="header-logo-text"><span class="head-logo-item-letter"><span>H</span></span>the<span
+                        class="header-logo-text-blod">Ham</span></a>
+            </div>
+            <nav class="header-navigation-menu">
+                <ul class="header-navigation-link">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                </ul>
+                <form action="#" class="header-search">
+                    <button class="search-btn search-btn-first">
+                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect x="0.909058" width="21.0909" height="20" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_2143:402"
+                                    transform="translate(0 -0.0272727) scale(0.0454545 0.0479339)" />
+                            </pattern>
+                            <image id="image0_2143:402" width="22" height="22"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+nhxg7wAAAhlJREFUOI2l1EuITmEcx/HP+5oYJZdZyG02FqIkJeUSwmNyFzGUFNnY2ShZ2pCFLGxkQVm4pERuMYfkLs2GkoUsyEhWcsl1WDznzfM+HWbkt3r+//M/3+ec/63W1dUl0yBMxyoEjMUA9OAWzuI2PkEIIX8ftGT2JOzHgvKCVG2YjG24gV14UElFPTnPxiUsyaA/8C2xa5iPi+VfVapWpmIirqI9eXYdF/CsBI9HRwZ7h0UhhIdV4FYcx+rS9xF7cBDvs/iB2IzdGFX67qMjhNAUW8c8LE18B0pwDoWvOIztyuJhBpbngXUs8zun17CvApjrNM4k9oYq8KzEPocP/QD/FAvdW9rTiqIYnIMbufqCp/2ANvQ0+YhWjM7BaWv16r++JvG9+J6DX5XnQZjwD+BJGFqeP+B1Du5O7IViS/WlmjidjQF7EkJIh0hdHIKGlmFLP8DzsSmxj+UBdVwW24xYhL3o/As04BCGlHY3zudBLfiMneJIt2EETmElruCRONJTMBdbNaerDVNxLwXXkrW5BkcwLLv8nVj14WJuq9SDzhDCnYYj3W5nsBg3s5eGlX+RQrv97iYYgxNFUcypAhMXygpsFIv6Em/xBs/FaVsvbrn1mlusHSeLophFcyqq1IqRYvP3VDyfKe6NsYnvJdblX5zrM178AUosWKfmtLTjaF/gPhVCuIu12eXj/htcwu+LXfVY7KIdvwB/ZIC2Fm1HqgAAAABJRU5ErkJggg==" />
+                        </defs>
+                    </svg>
+                </button>
+                    <input class="search-line" type="text"  placeholder="Поиск...">
+                    <button class="search-btn" type="submit">
+                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect x="0.909058" width="21.0909" height="20" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_2143:402"
+                                    transform="translate(0 -0.0272727) scale(0.0454545 0.0479339)" />
+                            </pattern>
+                            <image id="image0_2143:402" width="22" height="22"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+nhxg7wAAAhlJREFUOI2l1EuITmEcx/HP+5oYJZdZyG02FqIkJeUSwmNyFzGUFNnY2ShZ2pCFLGxkQVm4pERuMYfkLs2GkoUsyEhWcsl1WDznzfM+HWbkt3r+//M/3+ec/63W1dUl0yBMxyoEjMUA9OAWzuI2PkEIIX8ftGT2JOzHgvKCVG2YjG24gV14UElFPTnPxiUsyaA/8C2xa5iPi+VfVapWpmIirqI9eXYdF/CsBI9HRwZ7h0UhhIdV4FYcx+rS9xF7cBDvs/iB2IzdGFX67qMjhNAUW8c8LE18B0pwDoWvOIztyuJhBpbngXUs8zun17CvApjrNM4k9oYq8KzEPocP/QD/FAvdW9rTiqIYnIMbufqCp/2ANvQ0+YhWjM7BaWv16r++JvG9+J6DX5XnQZjwD+BJGFqeP+B1Du5O7IViS/WlmjidjQF7EkJIh0hdHIKGlmFLP8DzsSmxj+UBdVwW24xYhL3o/As04BCGlHY3zudBLfiMneJIt2EETmElruCRONJTMBdbNaerDVNxLwXXkrW5BkcwLLv8nVj14WJuq9SDzhDCnYYj3W5nsBg3s5eGlX+RQrv97iYYgxNFUcypAhMXygpsFIv6Em/xBs/FaVsvbrn1mlusHSeLophFcyqq1IqRYvP3VDyfKe6NsYnvJdblX5zrM178AUosWKfmtLTjaF/gPhVCuIu12eXj/htcwu+LXfVY7KIdvwB/ZIC2Fm1HqgAAAABJRU5ErkJggg==" />
+                        </defs>
+                    </svg>
+                </button>
+
+                </form>
+            </nav>
+        </section>
+        <section>
+            <div class="header-main-text">
+                <h3 class="header-main-text-upper">The Ham is <span>Wordpress theme</span></h3>
+
+                <h1 class="header-main-text-average">we are creative</h1>
+
+                <span class="header-main-text-lower">Just Buy And Enjoy These Awesome Features</span>
+            </div>
+            <div class="header-btn">
+                <a href="#" class="header-btn-primary header-general-style-btn">EXPLORE NOW</a>
+                <a href="#" class="header-btn-following header-general-style-btn">purchase now</a>
+            </div>
+        </section>
+    </header>
+    <main class="main-contant">
+        <section class="main-choice-services">
+            <div>
+                <img src="./img/touch-id-img.png" alt="touch-id-img">
+                <h3 class="main-under-text main-under-text-another-colour">Different theme option</h3>
+            </div>
+            <div>
+                <img src="./img/diamond-img.png" alt="diamond-img">
+                <h3 class="main-under-text">fully customizable</h3>
+            </div>
+            <div>
+                <img src="./img/bulb-img.png" alt="bulb-img">
+                <h3 class="main-under-text main-under-text-another-colour">unlimited support</h3>
+            </div>
+            <div>
+                <img src="./img/gadgets-img.png" alt="gadgets-img">
+                <h3 class="main-under-text">responsive all device</h3>
+            </div>
+        </section>
+        <section class="container">
+            <h2 class="main-title-service">Our Services <span class="main-strip"></span></h2>
+            <div class="main-tabs-block">
+                <ul class="main-tabs-box">
+                    <li class="main-tabs-title main-tabs-title-active" data-item="Web">Web Design</li>
+                    <li class="main-tabs-title" data-item="Graphic">Graphic Design</li>
+                    <li class="main-tabs-title" data-item="Support">Online Support</li>
+                    <li class="main-tabs-title" data-item="App">App Design</li>
+                    <li class="main-tabs-title" data-item="Marketing">Online Marketing</li>
+                    <li class="main-tabs-title" data-item="Seo">Seo Service</li>
+                </ul>
+                <ul class="main-content-under-box">
+                    <li class="main-content-under-box-list main-content-under-box-list-block" data-content="Web"><img
+                            src="./img/graphic-design1.jpg" alt="main-img-box">
+                        <p>labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                            consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.</p>
+                    </li>
+                    <li class="main-content-under-box-list" data-content="Graphic"><img src="./img/graphic-design2.jpg"
+                            alt="main-img-box">
+                        <p>labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                            consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.</p>
+                    </li>
+                    <li class="main-content-under-box-list" data-content="Support"><img src="./img/graphic-design3.jpg"
+                            alt="main-img-box">
+                        <p>labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                            consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.</p>
+                    </li>
+                    <li class="main-content-under-box-list" data-content="App"><img src="./img/graphic-design4.jpg"
+                            alt="main-img-box">
+                        <p>labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                            consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.</p>
+                    </li>
+                    <li class="main-content-under-box-list" data-content="Marketing"><img
+                            src="./img/graphic-design5.jpg" alt="main-img-box">
+                        <p>labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                            consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.</p>
+                    </li>
+                    <li class="main-content-under-box-list" data-content="Seo"><img src="./img/graphic-design6.jpg"
+                            alt="main-img-box">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                            consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="main-center-background">
+                <div class="container main-center-text">
+                    <h2 class="main-center-item-text">Everything is ready. just buy and install now</h2>
+                    <h6 class="main-center-under-text">Smooth reliable, responsive ready, perfect portfolio, unique blog
+                        layout and many many options for you</h6>
+                    <a href="#" class="header-btn-primary header-general-style-btn">purchase now</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="main-catalog-background">
+                <div class="container">
+                    <h2 class="main-title-service">Our Amazing Work<span class="main-strip"></span></h2>
+                    <ul class="main-catalog-tabs-box">
+                        <li class="main-catalog-tabs main-catalog-tabs-active" data-name="all">All</li>
+                        <li class="main-catalog-tabs" data-name="graphic">Graphic Design</li>
+                        <li class="main-catalog-tabs" data-name="web">Web Design</li>
+                        <li class="main-catalog-tabs" data-name="landing">Landing Pages</li>
+                        <li class="main-catalog-tabs" data-name="wordpress">Wordpress</li>
+                    </ul>
+                    <div class="main-catalog-img-all">
+                        <img class="main-catalog-img"  src="./img/graphic-design1.jpg" data-amazing="graphic"
+                            alt="graphic-design-img">
+                        <img class="main-catalog-img" src="./img/graphic-design2.jpg" data-amazing="graphic"
+                            alt="graphic-design-img">
+                        <img class="main-catalog-img" src="./img/graphic-design3.jpg" data-amazing="graphic"
+                            alt="graphic-design-img">
+                        <img class="main-catalog-img" src="./img/web-design1.jpg" data-amazing="web"
+                            alt="web-design-img">
+                        <img class="main-catalog-img" src="./img/web-design2.jpg" data-amazing="web"
+                            alt="web-design-img">
+                        <img class="main-catalog-img" src="./img/web-design3.jpg" data-amazing="web"
+                            alt="web-design-img">
+                        <img class="main-catalog-img" src="./img/landing-page1.jpg" data-amazing="landing"
+                            alt="landing-pages-img">
+                        <img class="main-catalog-img" src="./img/landing-page2.jpg" data-amazing="landing"
+                            alt="landing-pages-img">
+                        <img class="main-catalog-img" src="./img/landing-page3.jpg" data-amazing="landing"
+                            alt="landing-pages-img">
+                        <img class="main-catalog-img" src="./img/wordpress1.jpg" data-amazing="wordpress"
+                            alt="wordpress-img">
+                        <img class="main-catalog-img" src="./img/wordpress2.jpg" data-amazing="wordpress"
+                            alt="wordpress-img">
+                        <img class="main-catalog-img " src="./img/wordpress3.jpg" data-amazing="wordpress"
+                            alt="wordpress-img">
+                            <img class=" main-catalog-img-hide"  src="./img/graphic-design1.jpg" data-amazing="graphic"
+                            alt="graphic-design-img">
+                        <img class=" main-catalog-img-hide" src="./img/graphic-design2.jpg" data-amazing="graphic"
+                            alt="graphic-design-img">
+                        <img class=" main-catalog-img-hide" src="./img/graphic-design3.jpg" data-amazing="graphic"
+                            alt="graphic-design-img">
+                        <img class=" main-catalog-img-hide" src="./img/web-design1.jpg" data-amazing="web"
+                            alt="web-design-img">
+                        <img class=" main-catalog-img-hide" src="./img/web-design2.jpg" data-amazing="web"
+                            alt="web-design-img">
+                        <img class=" main-catalog-img-hide" src="./img/web-design3.jpg" data-amazing="web"
+                            alt="web-design-img">
+                        <img class=" main-catalog-img-hide" src="./img/landing-page1.jpg" data-amazing="landing"
+                            alt="landing-pages-img">
+                        <img class=" main-catalog-img-hide" src="./img/landing-page2.jpg" data-amazing="landing"
+                            alt="landing-pages-img">
+                        <img class=" main-catalog-img-hide" src="./img/landing-page3.jpg" data-amazing="landing"
+                            alt="landing-pages-img">
+                        <img class=" main-catalog-img-hide" src="./img/wordpress1.jpg" data-amazing="wordpress"
+                            alt="wordpress-img">
+                        <img class=" main-catalog-img-hide" src="./img/wordpress2.jpg" data-amazing="wordpress"
+                            alt="wordpress-img">
+                        <img class=  " main-catalog-img-hide" src="./img/wordpress3.jpg" data-amazing="wordpress"
+                            alt="wordpress-img">
+
+                    </div>
+                    <button class="main-catalog-btn main-btn-more-img-amazing">Load More</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2 class="main-title-service">Breaking News<span class="main-strip"></span></h2>
+                <div class="main-block-breaking-news">
+                    <a class="main-breaking-new-hover" href="#">
+                        <div class="main-breaking-new-img">
+                            <img src="./img/slide-img-post-1.png" alt="slider-img-1">
+                            <div class="main-breaking-new-data">
+                                <span>12</span>
+                                <span>Feb</span>
+                            </div>
+                        </div>
+                        <h4 class="main-breaking-new-name">Amazing Blog Post</h4>
+                        <div class="main-breaking-new-under-name">
+                            <span>By admin</span>
+                            <span>2 comment</span>
+                        </div>
+                    </a>
+                    <a class="main-breaking-new-hover" href="#">
+                        <div class="main-breaking-new-img">
+                            <img src="./img/slide-img-post-2.png" alt="slider-img-2">
+                            <div class="main-breaking-new-data">
+                                <span>12</span>
+                                <span>Feb</span>
+                            </div>
+                        </div>
+                        <h4 class="main-breaking-new-name">Amazing Blog Post</h4>
+                        <div class="main-breaking-new-under-name">
+                            <span>By admin</span>
+                            <span>2 comment</span>
+                        </div>
+                    </a>
+                    <a class="main-breaking-new-hover" href="#">
+                        <div class="main-breaking-new-img">
+                            <img src="./img/slide-img-post-3.png" alt="slider-img-3">
+                            <div class="main-breaking-new-data">
+                                <span>12</span>
+                                <span>Feb</span>
+                            </div>
+                        </div>
+                        <h4 class="main-breaking-new-name">Amazing Blog Post</h4>
+                        <div class="main-breaking-new-under-name">
+                            <span>By admin</span>
+                            <span>2 comment</span>
+                        </div>
+                    </a>
+                        <a class="main-breaking-new-hover" href="#">
+                        <div class="main-breaking-new-img">
+                            <img src="./img/slide-img-post-4.png" alt="slider-img-4">
+                            <div class="main-breaking-new-data">
+                                <span>12</span>
+                                <span>Feb</span>
+                            </div>
+                        </div>
+                        <h4 class="main-breaking-new-name">Amazing Blog Post</h4>
+                        <div class="main-breaking-new-under-name">
+                            <span>By admin</span>
+                            <span>2 comment</span>
+                        </div>
+                    </a>
+                    
+                    <a class="main-breaking-new-hover" href="#">
+                        <div class="main-breaking-new-img">
+                            <img src="./img/slide-img-post-5.png" alt="slider-img-5">
+                            <div class="main-breaking-new-data">
+                                <span>12</span>
+                                <span>Feb</span>
+                            </div>
+                        </div>
+                        <h4 class="main-breaking-new-name">Amazing Blog Post</h4>
+                        <div class="main-breaking-new-under-name">
+                            <span>By admin</span>
+                            <span>2 comment</span>
+                        </div>
+                    </a>
+                    <a class="main-breaking-new-hover" href="#">
+                        <div class="main-breaking-new-img">
+                            <img src="./img/slide-img-post-6.png" alt="slider-img-6">
+                            <div class="main-breaking-new-data">
+                                <span>12</span>
+                                <span>Feb</span>
+                            </div>
+                        </div>
+                        <h4 class="main-breaking-new-name">Amazing Blog Post</h4>
+                        <div class="main-breaking-new-under-name">
+                            <span>By admin</span>
+                            <span>2 comment</span>
+                        </div>
+                    </a>
+                    <a class="main-breaking-new-hover" href="#">
+                        <div class="main-breaking-new-img">
+                            <img src="./img/slide-img-post-7.png" alt="slider-img-7">
+                            <div class="main-breaking-new-data">
+                                <span>12</span>
+                                <span>Feb</span>
+                            </div>
+                        </div>
+                        <h4 class="main-breaking-new-name">Amazing Blog Post</h4>
+                        <div class="main-breaking-new-under-name">
+                            <span>By admin</span>
+                            <span>2 comment</span>
+                        </div>
+                    </a>
+                    <a class="main-breaking-new-hover" href="#">
+                        <div class="main-breaking-new-img">
+                            <img src="./img/slide-img-post-8.png" alt="slider-img-8">
+                            <div class="main-breaking-new-data">
+                                <span>12</span>
+                                <span>Feb</span>
+                            </div>
+                        </div>
+                        <h4 class="main-breaking-new-name">Amazing Blog Post</h4>
+                        <div class="main-breaking-new-under-name">
+                            <span>By admin</span>
+                            <span>2 comment</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="main-comment-background">
+            <div class="container">
+                <h2 class="main-title-service main-title-text">What People Say About theHam<span class="main-strip"></span></h2>
+                <img class="main-img-quotes"  src="./img/main-quotes.png" alt="quotes"> 
+                <div class="main-slider-container">
+                    <div class="main-slider-track">
+                <div class="main-comment-person">
+                    <p class="main-comment-text">Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
+                    <h5 class="main-comment-persone-name">Hasan Ali</h5>
+                    <span>UX Designer</span>
+                    <img class="main-person-photo" src="./img/avatar-img-1.png" alt="avatar">
+                </div>
+                <div class="main-comment-person">
+                    <p class="main-comment-text">Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
+                    <h5 class="main-comment-persone-name">Hasan Ali</h5>
+                    <span>UX Designer</span>
+                    <img class="main-person-photo" src="./img/avatar-img-2.png" alt="avatar">
+                </div>
+                <div class="main-comment-person">
+                    <p class="main-comment-text">Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
+                    <h5 class="main-comment-persone-name">Hasan Ali</h5>
+                    <span>UX Designer</span>
+                    <img class="main-person-photo" src="./img/avatar-img-3.png" alt="avatar">
+                </div>
+                <div class="main-comment-person">
+                    <p class="main-comment-text">Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
+                    <h5 class="main-comment-persone-name">Hasan Ali</h5>
+                    <span>UX Designer</span>
+                    <img class="main-person-photo" src="./img/avatar-img-4.png" alt="avatar">
+                </div>
+                </div>
+                </div>
+                
+                
+            </div>
+        </section>
+        <section>
+            <div class="container">
+            <h2 class="main-title-service"> Gallery of best images <span class="main-strip"></span></h2>
+            <div class="main-gallery-grid">
+                <div class="main-gallery-grid-item-whidth"></div>
+                <img class="main-gallery-grid-item" src="./img/gallety-img-1.png" alt="gallery-img">
+                <img class="main-gallery-grid-item" src="./img/gallety-img-4.png" alt="gallery-img">
+                <div class="main-gallery-grid-item">
+                    <img src="./img/gallety-img-7.png" alt="gallery-img">
+                    <img src="./img/gallety-img-8.png" alt="gallery-img">
+                </div>
+                <div class="main-gallery-grid-item main-gallery-grid-item-small">
+                    <img class="main-gallery-grid-item-little" src="./img/gallety-img-9.png" alt="galley-img">
+                    <img class="main-gallery-grid-item-little" src="./img/gallety-img-12.png" alt="galley-img">
+                    <img class="main-gallery-grid-item-little" src="./img/gallety-img-11.png" alt="galley-img">
+                    <img class="main-gallery-grid-item-little" src="./img/gallety-img-10.png" alt="galley-img">
+                    <img class="main-gallery-grid-item-little" src="./img/gallety-img-13.png" alt="galley-img">
+                    <img class="main-gallery-grid-item-little" src="./img/gallety-img-14.png" alt="galley-img">
+                    <img class="main-gallery-grid-item-little" src="./img/gallety-img-15.png" alt="galley-img">
+                    <img class="main-gallery-grid-item-little" src="./img/gallety-img-16.png" alt="galley-img">
+                    <img class="main-gallery-grid-item-little" src="./img/gallety-img-17.png" alt="galley-img">
+                </div>
+                <img class="main-gallery-grid-item" src="./img/gallety-img-3.png" alt="gallery-img">
+                <img class="main-gallery-grid-item" src="./img/gallety-img-5.png" alt="gallery-img">
+                <img class="main-gallery-grid-item " src="./img/gallety-img-18.png" alt="galley-img">
+                <img class="main-gallery-grid-item" src="./img/gallety-img-2.png" alt="gallery-img">
+                <img class="main-gallery-grid-item" src="./img/gallety-img-6.png" alt="gallery-img">
+            </div>
+            <button class="main-catalog-btn main-btn-more-img-gallery">Load More</button>
+        </div>
+        
+        </section>
+    </main>
+    <footer>
+     <div class="footer-block">
+         <span>© Copyright 2015 theHam</span>
+         <span>All Rights Reserved</span>
+     </div>
+    </footer>
+    <button class="btn-sroll-up">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="40px" height="40px" viewBox="0 0 512.000000 512.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+fill="#fff" stroke="none">
+<path d="M2496 4879 c-32 -25 -443 -708 -502 -835 -135 -288 -201 -637 -174
+-924 14 -156 61 -462 149 -969 65 -378 69 -395 95 -418 l27 -23 467 0 c500 0
+495 -1 522 50 16 30 210 1215 221 1353 24 297 -41 645 -173 927 -61 130 -472
+814 -504 839 -35 27 -93 27 -128 0z m167 -1054 c195 -51 317 -208 317 -409 0
+-245 -179 -426 -420 -426 -241 0 -420 182 -420 426 0 199 121 357 313 409 69
+18 140 18 210 0z"/>
+<path d="M2496 3618 c-22 -6 -57 -28 -81 -52 -137 -132 -42 -367 147 -366 113
+1 208 99 208 215 0 93 -67 182 -153 203 -53 14 -68 14 -121 0z"/>
+<path d="M1622 2515 c-65 -87 -141 -235 -176 -340 -48 -143 -56 -222 -56 -540
+l0 -292 26 -26 c33 -34 89 -45 123 -26 14 8 68 70 120 138 61 80 113 137 150
+165 l57 42 -22 49 c-15 35 -43 174 -89 455 -36 223 -70 414 -74 425 -7 17 -15
+10 -59 -50z"/>
+<path d="M3437 2565 c-3 -11 -36 -202 -72 -425 -46 -280 -74 -420 -89 -455
+l-22 -49 57 -42 c37 -28 89 -85 150 -165 52 -68 106 -130 120 -138 34 -19 90
+-8 123 26 l26 26 0 292 c0 322 -8 397 -58 545 -46 136 -121 273 -205 375 -22
+27 -25 27 -30 10z"/>
+<path d="M2383 1395 c-149 -101 -194 -148 -229 -245 -20 -56 -22 -182 -5 -235
+8 -22 85 -182 172 -355 166 -332 174 -343 239 -343 65 0 73 11 239 343 87 173
+164 333 171 355 8 22 13 74 13 115 -1 155 -65 247 -265 380 -159 107 -153 107
+-335 -15z"/>
+</g>
+</svg>
+
+    </button>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/masonry.pkgd.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
